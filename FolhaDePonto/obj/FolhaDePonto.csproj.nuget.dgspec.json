@@ -49,6 +49,34 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Blazorise.Bootstrap": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            },
+            "Blazorise.Icons.FontAwesome": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            },
+            "Blazorise.Icons.Material": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            },
+            "Blazorise.Material": {
+              "target": "Package",
+              "version": "[1.5.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

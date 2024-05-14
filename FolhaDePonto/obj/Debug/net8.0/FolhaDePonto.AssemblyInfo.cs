@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FolhaDePonto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36726197adb77cd05e59422730f5b3ef498699a4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cba45f3b7b78678aa03284822112a74dcd94f179")]
 [assembly: System.Reflection.AssemblyProductAttribute("FolhaDePonto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FolhaDePonto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
