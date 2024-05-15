@@ -1,4 +1,4 @@
-# App-Folha-de-Ponto
+# App-Folha-de-Ponto (em construção)
 Esse é um Projeto "end-to-end development" , com o propósito de solidificar o conhecimento e desenvolver experiência
 
 
