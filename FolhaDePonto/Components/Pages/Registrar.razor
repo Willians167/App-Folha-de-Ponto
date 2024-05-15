@@ -1,49 +1,47 @@
 ﻿@page "/registrar"
 
-
 <PageTitle>Registro de Ponto</PageTitle>
 
 <h3>Registro de Ponto</h3>
 
 <form>
-            <div class="form-group col-md-2">
-            <label for="dataRegistro">Data do Registro:</label>
-            <input type="date" class="form-control" id="dataRegistro">
-            <br>
-            <button type="submit" class="btn btn-primary">Registrar</button>
-        </div>
-<br>
-    
+    <div class="form-group col-md-2">
+        <label for="dataRegistro">Data do Registro:</label>
+        <input type="date" class="form-control" id="dataRegistro">
+          <input type="checkbox" id="confirmarEntrada">
+            <label for="confirmarEntrada">Confirmar Dia</label>
+    </div>
+    <br>
+
     <div class="form-row">
         <div class="form-group col-md-2">
-            <label for="horaEntrada">Hora de Entrada:</label>
-            <input type="time" class="form-control" id="horaEntrada">
-            <br>
-            <button type="submit" class="btn btn-primary">Registrar</button>
+            <label for="horarioEntrada">Horário de Entrada:</label>
+            <input type="time" class="form-control" id="horarioEntrada">
+            <input type="checkbox" id="confirmarEntrada">
+            <label for="confirmarEntrada">Confirmar Entrada</label>
         </div>
-<br>
+         <br>
         <div class="form-group col-md-2">
-            <label for="horaAlmoco">Hora de Descanso/Almoço:</label>
-            <input type="time" class="form-control" id="horaAlmoco">
-            <br>
-            <button type="submit" class="btn btn-primary">Registrar</button>
+            <label for="horarioAlmoco">Horário de Descanso/Almoço:</label>
+            <input type="time" class="form-control" id="horarioAlmoco">
+            <input type="checkbox" id="confirmarAlmoco">
+            <label for="confirmarAlmoco">Confirmar Descanso/Almoço</label>
         </div>
-<br>
+         <br>
         <div class="form-group col-md-2">
-            <label for="horaRetornoAlmoco">Hora de Retorno do Descanso/Almoço:</label>
-            <input type="time" class="form-control" id="horaRetornoAlmoco">
-            <br>
-            <button type="submit" class="btn btn-primary">Registrar</button>
+            <label for="horarioRetornoAlmoco">Horário de Retorno do Descanso/Almoço:</label>
+            <input type="time" class="form-control" id="horarioRetornoAlmoco">
+            <input type="checkbox" id="confirmarRetornoAlmoco">
+            <label for="confirmarRetornoAlmoco">Confirmar Retorno do Descanso/Almoço</label>
         </div>
-    <br>
+         <br>
         <div class="form-group col-md-2">
-            <label for="horaSaida">Hora de Saída:</label>
-            <input type="time" class="form-control" id="horaSaida">
-            <br>
-            <button type="submit" class="btn btn-primary">Registrar</button>
+            <label for="horarioSaida">Horário de Saída:</label>
+            <input type="time" class="form-control" id="horarioSaida">
+            <input type="checkbox" id="confirmarSaida">
+            <label for="confirmarSaida">Confirmar Saída</label>
         </div>
     </div>
-
-    
+ <br>
+    <button type="submit" class="btn btn-primary">Registrar</button>
 </form>
-

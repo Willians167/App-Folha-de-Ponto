@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Qs1Vlp3NyvQPsCioPo82dDroA4HSJ0cWfP4gCivfKHs=",
+  "Hash": "JUzBXsOuvob6bEFp4J+WW5otMnZHcK9IjsAfU37NWpQ=",
   "Source": "FolhaDePonto",
   "BasePath": "_content/FolhaDePonto",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "A:\\Projetos\\Projeto-App-Folha-Ponto\\App-Folha-de-Ponto\\FolhaDePonto\\wwwroot\\Images\\fundo.jpeg",
+      "SourceId": "FolhaDePonto",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Projetos\\Projeto-App-Folha-Ponto\\App-Folha-de-Ponto\\FolhaDePonto\\wwwroot\\",
+      "BasePath": "_content/FolhaDePonto",
+      "RelativePath": "Images/fundo.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\fundo.jpeg"
     },
     {
       "Identity": "C:\\Users\\willi\\.nuget\\packages\\blazorise.bootstrap\\1.5.2\\staticwebassets\\blazorise.bootstrap.css",

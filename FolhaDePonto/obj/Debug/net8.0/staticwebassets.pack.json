@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\FolhaDePonto.bundle.scp.css"
     },
     {
+      "Id": "A:\\Projetos\\Projeto-App-Folha-Ponto\\App-Folha-de-Ponto\\FolhaDePonto\\wwwroot\\Images\\fundo.jpeg",
+      "PackagePath": "staticwebassets\\Images\\fundo.jpeg"
+    },
+    {
       "Id": "A:\\Projetos\\Projeto-App-Folha-Ponto\\App-Folha-de-Ponto\\FolhaDePonto\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
